@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+
+
+body{
+	background-image: url("http://i1229.photobucket.com/albums/ee461/benayalla/gallary/moof_zpsd9zr6zuc.jpg");
+	background-repeat: no-repeat;
+	/*font-family:  "Trebuchet MS";*/
+    font-family: Arial;
+	font-size: 19px;
+	background-size: cover;
+	background-blend-mode: normal;
+	}
+.rego b{
+    font-family: Arial;
+}
+	.reg input{
+		background: #f1f1f1;
+		border: none;
+		height: 40px;
+		border-radius: 10px;
+		}
+
+	.rego{
+		background-color: rgba(122, 37, 106, 0.6);
+		border-radius: 10px;
+		color: white;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+	.signupbtn, .cancelbtn{
+		background-color: #D52685;
+		border: none;
+		width: 150px;
+		height: 40px;
+		color: white;
+
+        font-family: Arial;
+		font-size: 19px;
+		text-align:center;
+		margin-left: 25px;
+		margin-top: 30px;
+	}
+	</style>
+</head>
+<body>
+<table class="rego">
+        <tr>
+            <td>
+                <table class="reg" align="center">
+                    <tr>
+                        <td>
+                            <table align="center" cellspacing="5" cellpadding="5">
+                                <caption><div id="rog"><h3>Sign Up</h3></div> </caption>
+                                <tr>
+                                    <td><b>Name </b><br /></td>
+                                    <td><input name="name" type="text" placeholder="  name" style="width: 370px;" /></td>
+                                </tr>
+                                <tr>
+                                    <td><b>User name </b><br /></td>
+                                    <td><input name="username" type="text" placeholder="  username" style="width: 370px;"/></td>
+                                </tr>
+                                <tr>
+                                    <td><b>Password</b></td>
+                                    <td><input name="password" type="password" placeholder="  password" style="width: 370px;"/></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>Your email</b>
+                                    </td>
+                                    <td><input name="username" type="text" placeholder="   myusername@gmail.com" style="width: 370px;"/></td>
+                                </tr>
+                                <tr>
+                                    <td><b>Gender</b></td>
+                                    <td style="width: 90px;">
+                                        <input type="radio" style="width: 20px; position: absolute; bottom: 287px; " name="gender" value="M" checked/>
+                                        <div style="top: 319px; position: absolute; margin-left: 40px;">Male</div>
+                                        <input type="radio" style="width: 20px; position: absolute; margin-left: 131px; bottom: 287px" name="gender" value="F" />
+                                        <div style="top: 319px; position: absolute; margin-left: 160px;">Female</div>
+                                    </td>
+                                </tr>
+	                            <tr>
+                                    <td><b>Birthdate</b></td>
+                                    <td><input type="date" name="birthday" style="width: 370px;" /></td>
+                                </tr>
+                                <tr>
+                                    <td> <b>Comments</b> </td>
+                                    <td><input style="height: 140px; width: 370px;"  type="text" /></td>
+                                </tr>
+                                <tr>
+                                	<td><b> Upload Image </b></td>
+                                	<td><input type='file' style="background-color: transparent; padding-top: 15px;" onchange="readURL(this);" /></td>
+                                </tr>
+                                <tr>
+                                	<td colspan="2">
+                                		<input type="checkbox" style="width: 15px; position: absolute; ">
+                                		<div style="position: absolute; margin-left: 30px; margin-top: 10px;">Remember me</div>
+                                	</td>                              	
+                                </tr>
+                                <tr >
+                                    <td style="padding-top: 25px;padding-left: 90px;" colspan="2">
+                                    	<button type="submit" class="signupbtn"><a style="text-decoration: none; color: white;" href="home.html" />Sign Up</button>
+                                    	<button type="reset" value="clearall" class="cancelbtn">Back</button>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                </table>
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
