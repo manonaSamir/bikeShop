@@ -1,4 +1,5 @@
-body{
+@media screen {
+body {
 	margin: auto;
 	width: 100%;
 }
@@ -26,7 +27,7 @@ body{
 .navbar button{
 	background-color: transparent;
 	border: none;
-	font-size: 105%;
+	font-size:1.2vw;
 	height: 40px;
 	width: 10%;
 	color: #BCBEC0;
@@ -56,7 +57,7 @@ body{
 	padding-left: 5%;
 	margin: 0px;
 	bottom: 0px;
-	top: 85%;
+	top: 8em;
 }
 #message input, #message textarea{
 	border-radius: 5px;
@@ -72,13 +73,12 @@ body{
 #message{
 	width: 50%;
 	float: left;
-	top: 1130px;
-	margin-left: 11%;
+	margin-left: 9em;
+	margin-right: 10px;
 	text-decoration: none;
 	padding-top: 20px;
 	font-family: "Trebuchet MS";
 	display: flex;
-
 }
 #message button{
 	margin-left: 90px;
@@ -86,23 +86,23 @@ body{
 	background-color: #00B6A6;
 	border-radius:5px;
 	text-decoration: none;
-	width: 100px;
+	width: 40%;
 	height: 40px;
 }
 #map{
-	float: right;
 	width: 30%;
-	height:300px;
-	position: absolute;
-	margin-left: 60%;
+	position: absolute;	
 	margin-top: 1%;
 	height: 50%;
 	display: flex;
+	right: 0px;
+	margin-right: 8em;
+	margin-left: 10px;
 }
 .footer-icon{
 	width: 80%;
-	padding-top: 190px;
-	padding-left: 140px;
+	padding-top: 12em;
+	padding-left: 8em;
 }
 .footer img{
 	border-radius: 50%;
@@ -114,26 +114,51 @@ body{
 	text-align: center;
 	background-color: #7A496A;
 
+
 }
 .nav-bar{
 	width: 9%;
 	text-decoration: none;
-	float: right;
-	margin-right: 240px;
+	float: left;
+	margin:0 auto;
+	margin-left: 17em;
 	margin-top: 30px;
 
 }
+
 .nav-bar a{
 	text-decoration: none;
 	color: #c4c5c5;
-	font-size: 18px;
+	font-size:1.3vw;
 	text-align: left;
 	line-height: 1.9;
 	float: left;
-
 }
 .nav-bar label{
-	font-size: 19px;
+	font-size: 1.4vw;
+	color: white;
+	text-align: left;
+	font-weight: bold;
+	float: left;
+}
+.nav-bar1{
+	margin-left: 10em;
+	width: 9%;
+	text-decoration: none;
+	float: left;
+	margin-top: 30px;
+
+}
+.nav-bar1 a{
+	text-decoration: none;
+	color: #c4c5c5;
+	font-size:1.3vw;
+	text-align: left;
+	line-height: 1.9;
+	float: left;
+}
+.nav-bar1 label{
+	font-size: 1.4vw;
 	color: white;
 	text-align: left;
 	font-weight: bold;
@@ -164,20 +189,20 @@ body{
 }
 
 .item1 img{
-	width: 350px;
-  	height: 240px;
+  	width: 100%;
+  	height: 100%;
   	border-radius: 8% / 50%;
   	border: 1px #D52685 solid; 
 }
 #item2{
 	width: 350px;
-  height: 240px;
+ 	height: 240px;
 
 
 }
 #item2 h1{
 	font-family: 'Lucida Handwriting';
-	font-size: 22px;
+	font-size: 2vw;
 	color: #7A496A;
 	margin-top: 80px;
 	margin-left: 25px;
@@ -208,11 +233,12 @@ body{
 }
 #contactus b{
 	color: white;
+	font-size: 1.2vw;
 }
 #contactus{
 	width: 30%;
 	float: left;
-	padding-left: 50px;
+	margin-left: 6em;
 	text-decoration: none;
 	font-family: "Trebuchet MS";
 	margin-top: 20px;
@@ -222,8 +248,10 @@ body{
 	background-color: #7A496A;
 	border-radius:5px;
 	text-decoration: none;
-	width: 100px;
+	width: 25%;
 	height: 40px;
+	text-align: center;
+	font-size: 1vw;
 
 }
 
@@ -255,5 +283,58 @@ body{
 	color: white;
 	width: 90px;
 	height: 40px;
-	font-family: 'Helvetica';
+	font-family: 'Helvetica';}
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+.nav-bar{
+	width: 9%;
+	margin:0 auto;
+	margin-left: 5px;
+	margin-top: 30px;
+
+}
+.nav-bar1{
+	padding-left: 0.1em;
+	width: 9%;
+	text-decoration: none;
+	margin-left: 70px;
+	margin-top: 30px;
+
+}
+#contactus{
+	width: 30%;
+	padding-left: 0.1em;
+	margin-left: 0px;
+	text-decoration: none;
+	font-family: "Trebuchet MS";
+	margin-top: 20px;
+
+}
+.footer-icon{
+	width: 80%;
+	padding-top: 12em;
+	padding-left: 3em;
+}
+#message{
+	width: 50%;
+	float: left;
+	margin-left: .4em;
+	margin-right: 10px;
+	text-decoration: none;
+	padding-top: 20px;
+	font-family: "Trebuchet MS";
+
+}
+#map{
+	width: 30%;
+	margin-top: 1%;
+	height: 50%;
+	margin-left: 19em;
+	margin-right: 0px;
+}
+
 }
